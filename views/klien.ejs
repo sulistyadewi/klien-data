@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/5ec826f967.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="flex flex-col items-center mt-10 sm:rounded-lg">
+      <table class="max-w-4xl text-sm text-left text-gray-500">
+        <thead class="text-xs text-gray-700 bg-gray-50">
+          <tr>
+            <th class="px-10 py-3">Nama</th>
+            <th class="px-6 py-3">Alamat</th>
+            <th class="px-6 py-3">Email</th>
+            <th class="px-6 py-3">Gender</th>
+            <th class="px-6 py-3">Tahun Masuk</th>
+            <th class="px-6 py-3">Gaji</th>
+            <th class="px-6 py-3"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for (let i = 0; i < data.length; i++) { %>
+          <tr class="bg-gray-200 border-b text-black">
+            <td class="px-10 py-4"><%= data[i].nama %></td>
+            <td class="px-6 py-4"><%= data[i].alamat %></td>
+            <td class="px-6 py-4"><%= data[i].email %></td>
+            <td class="px-6 py-4"><%= data[i].gender %></td>
+            <td class="px-6 py-4"><%= data[i].tahun_masuk %></td>
+            <td class="px-6 py-4"><%= data[i].gaji %></td>
+            <td>
+              <a
+                href="/klien/<%= data[i].id %>/delete"
+                class="fa-solid fa-circle-xmark text-xl"
+                style="color: #e21818"
+                >hapus</a
+              >
+            </td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+    <button class="mt-10 ml-[58rem]">
+      <a href="/klien/add" class="bg-blue-700 text-white px-4 py-2 rounded"
+        ><i class="fa-solid fa-plus mr-1"></i>add</a
+      >
+    </button>
+  </body>
+</html>

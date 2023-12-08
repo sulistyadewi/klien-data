@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "nama": "Eliza Fida",
+    "alamat": "Jl.Jendral-Soedirman",
+    "email": "elizafida@mail.com",
+    "gender": "female",
+    "tahun_masuk": "23-07-2018",
+    "gaji": 0
+  },
+  {
+    "id": "2",
+    "nama": "Jasmin Kalifa",
+    "alamat": "Jl.Jendral-Soedirman",
+    "email": "jasminkalifa@mail.com",
+    "gender": "female",
+    "tahun_masuk": "06-03-2017",
+    "gaji": 0
+  },
+  {
+    "id": "3",
+    "nama": "Ammar Dzaki",
+    "alamat": "Jl.Imam-Bonjol",
+    "email": "ammardzaki@mail.com",
+    "gender": "male",
+    "tahun_masuk": "14-03-2017",
+    "gaji": 0
+  },
+  {
+    "id": "4",
+    "nama": "Fadhlan Ja'far",
+    "alamat": "Jl.Ahmad-Yani",
+    "email": "fadhlanjafar@mail.com",
+    "gender": "male",
+    "tahun_masuk": "02-05-2022",
+    "gaji": 0
+  },
+  {
+    "id": "5",
+    "nama": "Latif Hanan",
+    "alamat": "Jl.Imam-Bonjol",
+    "email": "latifhanan@mail.com",
+    "gender": "male",
+    "tahun_masuk": "27-04-2019",
+    "gaji": 0
+  },
+  {
+    "id": "51",
+    "nama": "Putri Hayla",
+    "alamat": "Jl.Jendral Sudirman",
+    "email": "putrihayla@mail.com",
+    "gender": "Female",
+    "tahun_masuk": "2020-12-04"
+  },
+  {
+    "id": "511",
+    "nama": "Lia Putri",
+    "alamat": "Jl.Ahmad-Yani",
+    "email": "liaputri@mail.com",
+    "gender": "Female",
+    "tahun_masuk": "2020-06-13"
+  }
+]
